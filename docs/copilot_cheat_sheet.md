@@ -63,6 +63,12 @@ Then, they can attempt the deployment again.
 azd up
 ```
 
+## Azd Auth Issues
+
+If the user gets a mismatched subscription error or can't find subscription error, there may be some corruption in the azd configuration.
+
+Delete the `.azure` directory in the project root (so `~/aks-store-demo/.azure` in the Skillable environment).
+
 ## Copilot Fails to Answer
 
 If the user gets a message similar to:

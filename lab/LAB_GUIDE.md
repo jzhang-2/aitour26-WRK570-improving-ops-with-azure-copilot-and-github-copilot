@@ -256,6 +256,8 @@ https://portal.azure.com/#@<AZURE_TENANT_NAME>/resource/subscriptions/<AZURE_SUB
 What is the current health status of my AKS cluster?
 ```
 
+> [!NOTE] **Action:** When asked to select a time range, choose "Last 24 hours" from the dropdown menu.
+
 **Expected result:** Health report showing passed checks for:
 
 - ✅ Subnet Sharing
@@ -358,7 +360,7 @@ Cancel the current prompt.
 **Follow-up prompt:**
 
 ```text-nocolor-notab
-How do I get the pod name for a pod in the store-admin deployment?
+How do I get the pod name for a pod in the store-admin deployment in the pets namespace?
 ```
 
 > [!NOTE] Execute the suggested command, then manually construct the logs command.
@@ -431,6 +433,8 @@ https://portal.azure.com/#@<AZURE_TENANT_NAME>/resource//subscriptions/<AZURE_SU
 How would I make this AKS cluster more resilient?
 ```
 
+> [!Note] If asked, select the Load Balancer for the AKS cluster so Copilot can analyze its configuration. Since the responses are non-deterministic, your results may vary from the list below.
+
 **Expected recommendations:**
 
 - AKS Backup for persistent volumes
@@ -447,7 +451,7 @@ How would I make this AKS cluster more resilient?
 How can I check if my AKS nodes are using availability zones?
 ```
 
-> [!NOTE] Execute the suggested ++kubectl++ command to see zone distribution.
+> [!NOTE] The result could be either a kubectl command or a KQL query. Execute the suggested command to see zone distribution.
 
 #### Learn About Zone Enablement
 
@@ -548,7 +552,7 @@ If you don't have a GitHub account:
 
 #### Fork the AKS Store Demo Project
 
-1. In the browser, navigate to [the workshop repository](https://github.com/microsoft/aitour26-WRK570-improving-ops-with-copilot-in-azure-and-github-copilot) +++https://github.com/microsoft/aitour26-WRK570-improving-ops-with-copilot-in-azure-and-github-copilot+++
+1. In the browser, navigate to [the workshop repository](https://github.com/microsoft/aitour26-WRK570-improving-ops-with-copilot-in-azure-and-github-copilot) +++<https://github.com/microsoft/aitour26-WRK570-improving-ops-with-copilot-in-azure-and-github-copilot+++>
 2. Click fork to create your own copy of the repository
 
 #### Open Visual Studio Code
@@ -677,7 +681,7 @@ Review the Dockerfile for the ai-service microservice and suggest security impro
 ## Additional Resources
 
 - [Azure Developer CLI Documentation](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/)
-- [Azure Copilot Overview](https://learn.microsoft.com/azure/copilot
+- [Azure Copilot Overview](<https://learn.microsoft.com/azure/copilot>
 - [GitHub Copilot Documentation](https://docs.github.com/copilot)
 
 ## Troubleshooting
@@ -721,9 +725,9 @@ Add the Playwright MCP server to GitHub Copilot's configuration:
 npx @playwright/mcp@latest
 ```
 
-5. Change the server id to "Playwright".
-6. Select Workspace as the scope for the MCP server.
-7. Choose "Trust" to enable the MCP server.
+1. Change the server id to "Playwright".
+2. Select Workspace as the scope for the MCP server.
+3. Choose "Trust" to enable the MCP server.
 
 #### Step 4: Generate Store Front Smoke Tests Using MCP
 
@@ -922,10 +926,10 @@ Add the Terraform MCP server to GitHub Copilot's configuration:
 hashicorp/terraform-mcp-server
 ```
 
-5. Choose "Allow" for the required permissions.
-6. Accept the proposed server id.
-7. Select "Workspace" as the scope for the MCP server.
-8. Choose "Trust" to enable the MCP server.
+1. Choose "Allow" for the required permissions.
+2. Accept the proposed server id.
+3. Select "Workspace" as the scope for the MCP server.
+4. Choose "Trust" to enable the MCP server.
 
 #### Step 2: Create Terraform Project Structure
 

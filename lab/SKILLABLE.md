@@ -23,13 +23,13 @@ By the end of this workshop, you will be able to:
 
 Log in using the credentials provided:
 
-- Password: +++@lab.VirtualMachine(Win11-Pro-Base).Password+++
+- Password: <+++@lab.VirtualMachine>(Win11-Pro-Base).Password+++
 
 ### Azure Portal Authentication
 
 1. Open Microsoft Edge (opens to Azure Portal automatically)
-2. Username: +++@lab.CloudPortalCredential(User1).Username+++
-3. Temporary Access Pass: +++@lab.CloudPortalCredential(User1).AccessToken+++
+2. Username: <+++@lab.CloudPortalCredential>(User1).Username+++
+3. Temporary Access Pass: <+++@lab.CloudPortalCredential>(User1).AccessToken+++
 
 ---
 
@@ -67,7 +67,7 @@ Run both commands to authenticate:
 azd auth login
 ```
 
-> [!NOTE] This opens a browser window. Use the same credentials: ++@lab.CloudPortalCredential(User1).Username++
+> [!NOTE] This opens a browser window. Use the same credentials: <++@lab.CloudPortalCredential>(User1).Username++
 
 ```PowerShell-notab-nocolor
 az login
@@ -79,11 +79,11 @@ Choose "Work or school account".
 
 Click "Continue".
 
-On the sign in screen, use +++@lab.CloudPortalCredential(User1).Username+++.
+On the sign in screen, use <+++@lab.CloudPortalCredential>(User1).Username+++.
 
 Click "Next".
 
-For the Temporary Access Pass, use +++@lab.CloudPortalCredential(User1).AccessToken+++.
+For the Temporary Access Pass, use <+++@lab.CloudPortalCredential>(User1).AccessToken+++.
 
 Click "Sign in".
 
@@ -361,7 +361,7 @@ Cancel the current prompt.
 **Follow-up prompt:**
 
 ```text-nocolor-notab
-How do I get the pod name for a pod in the store-admin deployment?
+How do I get the pod name for a pod in the store-admin deployment in the pets namespace?
 ```
 
 > [!NOTE] Execute the suggested command, then manually construct the logs command.
@@ -434,7 +434,7 @@ https://portal.azure.com/#@@lab.CloudSubscription.TenantName/resource//subscript
 How can I improve the resilience of my AKS cluster?
 ```
 
-> [!NOTE] You may be asked to select a load balancer to continue. There should be one option. Select that one.
+> [!Note] If asked, select the Load Balancer for the AKS cluster so Copilot can analyze its configuration. Since the responses are non-deterministic, your results may vary from the list below.
 
 **Expected recommendations:**
 
@@ -452,7 +452,7 @@ How can I improve the resilience of my AKS cluster?
 How can I check if my AKS nodes are using availability zones?
 ```
 
-> [!NOTE] Execute the suggested ++kubectl++ command to see zone distribution.
+> [!NOTE] The result could be either a kubectl command or a KQL query. Execute the suggested command to see zone distribution.
 
 #### Learn About Zone Enablement
 
@@ -542,7 +542,7 @@ Create an azure cli script to tag the resource group and every resource in it wi
 
 If you have a GitHub account:
 
-1. Navigate to [github.com](https://github.com) +++https://github.com+++
+1. Navigate to [github.com](https://github.com) +++<https://github.com+++>
 2. Click **Sign in**
 3. Enter your credentials
 
@@ -550,7 +550,7 @@ If you have a GitHub account:
 
 If you don't have a GitHub account:
 
-1. Navigate to [github.com](https://github.com) +++https://github.com+++
+1. Navigate to [github.com](https://github.com) +++<https://github.com+++>
 2. Click **Sign up**
 3. Enter email address and create password
 4. Choose a username
@@ -559,7 +559,7 @@ If you don't have a GitHub account:
 
 #### Fork the AKS Store Demo Project
 
-1. In the browser, navigate to [the workshop repository](https://github.com/microsoft/aitour26-WRK570-improving-ops-with-azure-copilot-and-github-copilot) +++https://github.com/microsoft/aitour26-WRK570-improving-ops-with-azure-copilot-and-github-copilot+++
+1. In the browser, navigate to [the workshop repository](https://github.com/microsoft/aitour26-WRK570-improving-ops-with-azure-copilot-and-github-copilot) +++<https://github.com/microsoft/aitour26-WRK570-improving-ops-with-azure-copilot-and-github-copilot+++>
 2. Click fork to create your own copy of the repository
 
 #### Open Visual Studio Code
@@ -737,9 +737,9 @@ Add the Playwright MCP server to GitHub Copilot's configuration:
 npx @playwright/mcp@latest
 ```
 
-5. Change the server id to "Playwright".
-6. Select Workspace as the scope for the MCP server.
-7. Choose "Trust" to enable the MCP server.
+1. Change the server id to "Playwright".
+2. Select Workspace as the scope for the MCP server.
+3. Choose "Trust" to enable the MCP server.
 
 #### Step 4: Generate Store Front Smoke Tests Using MCP
 
@@ -944,10 +944,10 @@ Add the Terraform MCP server to GitHub Copilot's configuration:
 hashicorp/terraform-mcp-server
 ```
 
-5. Choose "Allow" for the required permissions.
-6. Accept the proposed server id.
-7. Select "Workspace" as the scope for the MCP server.
-8. Choose "Trust" to enable the MCP server.
+1. Choose "Allow" for the required permissions.
+2. Accept the proposed server id.
+3. Select "Workspace" as the scope for the MCP server.
+4. Choose "Trust" to enable the MCP server.
 
 #### Step 2: Create Terraform Project Structure
 
@@ -993,13 +993,13 @@ By the end of this workshop, you will be able to:
 
 Log in using the credentials provided:
 
-- Password: +++@lab.VirtualMachine(Win11-Pro-Base).Password+++
+- Password: <+++@lab.VirtualMachine>(Win11-Pro-Base).Password+++
 
 ### Azure Portal Authentication
 
 1. Open Microsoft Edge (opens to Azure Portal automatically)
-2. Username: +++@lab.CloudPortalCredential(User1).Username+++
-3. Temporary Access Pass: +++@lab.CloudPortalCredential(User1).AccessToken+++
+2. Username: <+++@lab.CloudPortalCredential>(User1).Username+++
+3. Temporary Access Pass: <+++@lab.CloudPortalCredential>(User1).AccessToken+++
 
 ---
 
@@ -1037,7 +1037,7 @@ Run both commands to authenticate:
 azd auth login
 ```
 
-> [!NOTE] This opens a browser window. Use the same credentials: ++@lab.CloudPortalCredential(User1).Username++
+> [!NOTE] This opens a browser window. Use the same credentials: <++@lab.CloudPortalCredential>(User1).Username++
 
 ```PowerShell-notab-nocolor
 az login
@@ -1049,11 +1049,11 @@ Choose "Work or school account".
 
 Click "Continue".
 
-On the sign in screen, use +++@lab.CloudPortalCredential(User1).Username+++.
+On the sign in screen, use <+++@lab.CloudPortalCredential>(User1).Username+++.
 
 Click "Next".
 
-For the Temporary Access Pass, use +++@lab.CloudPortalCredential(User1).AccessToken+++.
+For the Temporary Access Pass, use <+++@lab.CloudPortalCredential>(User1).AccessToken+++.
 
 Click "Sign in".
 
@@ -1527,7 +1527,7 @@ Create an azure cli script to tag the resource group and every resource in it wi
 
 If you have a GitHub account:
 
-1. Navigate to [github.com](https://github.com) ++https://github.com++
+1. Navigate to [github.com](https://github.com) ++<https://github.com++>
 2. Click **Sign in**
 3. Enter your credentials
 
@@ -1535,7 +1535,7 @@ If you have a GitHub account:
 
 If you don't have a GitHub account:
 
-1. Navigate to [github.com](https://github.com) ++https://github.com++
+1. Navigate to [github.com](https://github.com) ++<https://github.com++>
 2. Click **Sign up**
 3. Enter email address and create password
 4. Choose a username
@@ -1544,7 +1544,7 @@ If you don't have a GitHub account:
 
 #### Fork the AKS Store Demo Project
 
-1. In the browser, navigate to [the workshop repository](https://github.com/microsoft/aitour26-WRK570-improving-ops-with-azure-copilot-and-github-copilot) ++https://github.com/microsoft/aitour26-WRK570-improving-ops-with-azure-copilot-and-github-copilott++
+1. In the browser, navigate to [the workshop repository](https://github.com/microsoft/aitour26-WRK570-improving-ops-with-azure-copilot-and-github-copilot) ++<https://github.com/microsoft/aitour26-WRK570-improving-ops-with-azure-copilot-and-github-copilott++>
 2. Click fork to create your own copy of the repository
 
 #### Open Visual Studio Code
@@ -1720,9 +1720,9 @@ Add the Playwright MCP server to GitHub Copilot's configuration:
 npx @playwright/mcp@latest
 ```
 
-5. Change the server id to "Playwright".
-6. Select Workspace as the scope for the MCP server.
-7. Choose "Trust" to enable the MCP server.
+1. Change the server id to "Playwright".
+2. Select Workspace as the scope for the MCP server.
+3. Choose "Trust" to enable the MCP server.
 
 #### Step 4: Generate Store Front Smoke Tests Using MCP
 
@@ -1927,10 +1927,10 @@ Add the Terraform MCP server to GitHub Copilot's configuration:
 hashicorp/terraform-mcp-server:0.3.0
 ```
 
-5. Choose "Allow" for the required permissions.
-6. Accept the proposed server id.
-7. Select "Workspace" as the scope for the MCP server.
-8. Choose "Trust" to enable the MCP server.
+1. Choose "Allow" for the required permissions.
+2. Accept the proposed server id.
+3. Select "Workspace" as the scope for the MCP server.
+4. Choose "Trust" to enable the MCP server.
 
 #### Step 2: Create Terraform Project Structure
 

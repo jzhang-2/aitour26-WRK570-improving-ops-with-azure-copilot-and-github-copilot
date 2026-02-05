@@ -23,13 +23,13 @@ By the end of this workshop, you will be able to:
 
 Log in using the credentials provided:
 
-- Password: <+++@lab.VirtualMachine>(Win11-Pro-Base).Password+++
+- Password: +++@lab.VirtualMachine(Win11-Pro-Base).Password+++
 
 ### Azure Portal Authentication
 
 1. Open Microsoft Edge (opens to Azure Portal automatically)
-2. Username: <+++@lab.CloudPortalCredential>(User1).Username+++
-3. Temporary Access Pass: <+++@lab.CloudPortalCredential>(User1).AccessToken+++
+2. Username: +++@lab.CloudPortalCredential(User1).Username+++
+3. Temporary Access Pass: +++@lab.CloudPortalCredential(User1).AccessToken+++
 
 ---
 
@@ -79,11 +79,11 @@ Choose "Work or school account".
 
 Click "Continue".
 
-On the sign in screen, use <+++@lab.CloudPortalCredential>(User1).Username+++.
+On the sign in screen, use +++@lab.CloudPortalCredential(User1).Username+++.
 
 Click "Next".
 
-For the Temporary Access Pass, use <+++@lab.CloudPortalCredential>(User1).AccessToken+++.
+For the Temporary Access Pass, use +++@lab.CloudPortalCredential(User1).AccessToken+++.
 
 Click "Sign in".
 
@@ -994,13 +994,13 @@ By the end of this workshop, you will be able to:
 
 Log in using the credentials provided:
 
-- Password: <+++@lab.VirtualMachine>(Win11-Pro-Base).Password+++
+- Password: +++@lab.VirtualMachine(Win11-Pro-Base).Password+++
 
 ### Azure Portal Authentication
 
 1. Open Microsoft Edge (opens to Azure Portal automatically)
-2. Username: <+++@lab.CloudPortalCredential>(User1).Username+++
-3. Temporary Access Pass: <+++@lab.CloudPortalCredential>(User1).AccessToken+++
+2. Username: +++@lab.CloudPortalCredential(User1).Username+++
+3. Temporary Access Pass: +++@lab.CloudPortalCredential(User1).AccessToken+++
 
 ---
 
@@ -1050,11 +1050,11 @@ Choose "Work or school account".
 
 Click "Continue".
 
-On the sign in screen, use <+++@lab.CloudPortalCredential>(User1).Username+++.
+On the sign in screen, use +++@lab.CloudPortalCredential(User1).Username+++.
 
 Click "Next".
 
-For the Temporary Access Pass, use <+++@lab.CloudPortalCredential>(User1).AccessToken+++.
+For the Temporary Access Pass, use +++@lab.CloudPortalCredential(User1).AccessToken+++.
 
 Click "Sign in".
 

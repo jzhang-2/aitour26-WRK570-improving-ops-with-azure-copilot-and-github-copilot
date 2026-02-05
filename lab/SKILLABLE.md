@@ -67,7 +67,7 @@ Run both commands to authenticate:
 azd auth login
 ```
 
-> [!NOTE] This opens a browser window. Use the same credentials: <++@lab.CloudPortalCredential>(User1).Username++
+> [!NOTE] This opens a browser window. Use the same credentials: ++@lab.CloudPortalCredential>(User1).Username++
 
 ```PowerShell-notab-nocolor
 az login
@@ -543,7 +543,7 @@ Create an azure cli script to tag the resource group and every resource in it wi
 
 If you have a GitHub account:
 
-1. Navigate to [github.com](https://github.com) +++<https://github.com+++>
+1. Navigate to [github.com](https://github.com) +++https://github.com+++
 2. Click **Sign in**
 3. Enter your credentials
 
@@ -551,7 +551,7 @@ If you have a GitHub account:
 
 If you don't have a GitHub account:
 
-1. Navigate to [github.com](https://github.com) +++<https://github.com+++>
+1. Navigate to [github.com](https://github.com) +++https://github.com+++
 2. Click **Sign up**
 3. Enter email address and create password
 4. Choose a username
@@ -560,7 +560,7 @@ If you don't have a GitHub account:
 
 #### Fork the AKS Store Demo Project
 
-1. In the browser, navigate to [the workshop repository](https://github.com/microsoft/aitour26-WRK570-improving-ops-with-azure-copilot-and-github-copilot) +++<https://github.com/microsoft/aitour26-WRK570-improving-ops-with-azure-copilot-and-github-copilot+++>
+1. In the browser, navigate to [the workshop repository](https://github.com/microsoft/aitour26-WRK570-improving-ops-with-azure-copilot-and-github-copilot) +++https://github.com/microsoft/aitour26-WRK570-improving-ops-with-azure-copilot-and-github-copilot+++
 2. Click fork to create your own copy of the repository
 
 #### Open Visual Studio Code
@@ -1038,7 +1038,7 @@ Run both commands to authenticate:
 azd auth login
 ```
 
-> [!NOTE] This opens a browser window. Use the same credentials: <++@lab.CloudPortalCredential>(User1).Username++
+> [!NOTE] This opens a browser window. Use the same credentials: ++@lab.CloudPortalCredential>(User1).Username++
 
 ```PowerShell-notab-nocolor
 az login
@@ -1528,7 +1528,7 @@ Create an azure cli script to tag the resource group and every resource in it wi
 
 If you have a GitHub account:
 
-1. Navigate to [github.com](https://github.com) ++<https://github.com++>
+1. Navigate to [github.com](https://github.com)
 2. Click **Sign in**
 3. Enter your credentials
 
@@ -1536,7 +1536,7 @@ If you have a GitHub account:
 
 If you don't have a GitHub account:
 
-1. Navigate to [github.com](https://github.com) ++<https://github.com++>
+1. Navigate to [github.com](https://github.com
 2. Click **Sign up**
 3. Enter email address and create password
 4. Choose a username
@@ -1545,7 +1545,7 @@ If you don't have a GitHub account:
 
 #### Fork the AKS Store Demo Project
 
-1. In the browser, navigate to [the workshop repository](https://github.com/microsoft/aitour26-WRK570-improving-ops-with-azure-copilot-and-github-copilot) ++<https://github.com/microsoft/aitour26-WRK570-improving-ops-with-azure-copilot-and-github-copilott++>
+1. In the browser, navigate to [the workshop repository](https://github.com/microsoft/aitour26-WRK570-improving-ops-with-azure-copilot-and-github-copilot)
 2. Click fork to create your own copy of the repository
 
 #### Open Visual Studio Code
